@@ -1,0 +1,140 @@
+1. Berikut adalah aturan umum dalam membuat nama variabel kecuali.
+	a. boleh diawali dengan angka (jawaban)
+	b. menggunakan huruf besar atau kecil
+	c. tidak boleh memuat spasi(jeda)
+	d. menggunakan metode camel case
+
+2. Berikut contoh nama variabel yang benar kecuali
+	a. N
+	b. m
+	c. Semua benar
+	d. My Name (jawaban)
+
+3. Berikut contoh nama variabel yang salah kecuali
+	a. Rata Rata
+	b. kelulusan_mahasiswa (jawaban)
+	c. kelulusan%
+	d. laki&perempuan
+
+4. berikut ini yang tidak termasuk nama variabel terlarang kecuali
+	a. kelas (j)
+	b. class
+	c. public
+	d. static
+
+5. Apa tradisi pada programer java dalam penamaan variabel?
+	a. programer java jarang memakai garis bawah(_)
+	b. nama class di awali dengan huruf besar (j)
+	c. nama variabel di awali dengan huruf besar
+	d. programer java menggunakan teknik camel case 
+	
+6. Nama tempat di memori dalam pemrograman java sering di sebut?
+	a. ram
+	b. database
+	c. memori
+	d. nama variabel (j)
+
+7. Yang bukan termasuk tempat untuk menyimpan data sementara selama program berjalan kecuali.
+	a. SSD
+	b. HDD
+	c. ram / memori komputer (j)
+	d. Flashdisk
+
+8. Dalam membuat variabel pilihan benar atau salah dapat menggunakan type variabel ?
+	a. char
+	b. boolean (j)
+	c. int
+	d. float
+
+9. Dalam membuat variabel untuk bilangan bulat tanpa koma(,), menggunakan type data?
+	a. float
+	b. long
+	c. int (j)
+	d. double
+
+10. Type data untuk variabel menyimpan kalimat adalah?
+	a. double
+	b. float
+	c. char
+	d. String (j)
+
+11. Bagaimana programer java untuk mendeklarasi untuk sebuah variabel?
+	a. (nama type data) (nama variabel); (j)
+	b. (nama variabel) (nama type data);
+	c. (nama type data) (nama variabel)
+	d. (nama variable)
+
+12. Dibawah ini, Yang bukan termasuk penulisan dalam deklarasi variabel yang tepat kecuali.
+	a. Int _JUMLAH MAHASISWA;
+	b. int jumlahMahasiswa; (j)
+	c. inT jumlah_mahasiswa%;
+	d. int 2jumlah_mahasiswa;
+
+13. Dibawah ini, yang termasuk penulisan deklarasi variabel yang tepat.
+	a. double 20modal;
+	b. char rerataIPS%;
+	c. double rerataIPS, rerataIPK; (j)
+	d. Boolean sudah_Lulus
+
+14. Penulisan pengisian data kedalam variabel yang tepat adalah
+	a. nilaiFinal 222;
+	b. nilaiFinal = ;
+	c. nilaiFinal = 222
+	d. nilaiFinal = 222; (j)
+
+15. Hasil dari int nilaiA = 80; int nilaiB = 99; int nilaiAkhir = nilaiA + nilaiB;
+	a. 179 (j)
+	b. 180
+	c. 181
+	d. 182
+
+16. Hasil dari double a = 5; double b = 7; hasil = a x b; System.Out.println(hasil);
+	a. 35
+	b. 35.0 (j)
+	c. 12
+	d. 12.0
+
+17. Hasil dari double beratIdeal = double tinggi – 100;
+	a. 60
+	b. 70
+	c. Error (j)
+	d. 120
+
+18. Perbaiki code program sederhana di bawah ini:
+		double lebar;
+		panjang = 100
+		hasil = panjang * lebar;
+
+	a. double lebar;
+	   panjang = 100;
+	   hasil = panjang * lebar
+
+	b. double lebar = 10
+	   double panjang;
+	   hasil = panjang  lebar;
+	
+	c. lebar = 10;
+	   double panjang = 100;
+	   hasil = panjang * lebar;
+
+	d. double lebar = 10;
+	   double panjang = 100;
+	   double hasil = panjang * lebar; (j)
+
+19. perhatikan program di bawah ini :
+	Apakah yang membuat syntax program ini menjadi error?
+	alas = 20;
+	tinggi = 30;
+	luas = 0.5 * alas * tinggi ; 
+		a. karena variabel alas dan tinggi tidak di deklarasikan (j)
+		b. karena variabel luas tidak di deklarasikan
+		c. karena variabel alas dan tinggi tidak memiliki nilai
+		d. karena 0.5 mengganggu
+
+20. Perhatikan prograam di bawah ini :
+	Apakah yang membuat syntax prograam ini menjadi error?
+	"System.Out.println(10)"
+		a. karena angka 10 mengganggu
+		b. karena tidak ada tanda titik koma (;) (j)
+		c. karena syntax tersebut jelek
+		d. jawaban semua benar
