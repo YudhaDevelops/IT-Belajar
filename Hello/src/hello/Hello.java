@@ -1,21 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package hello;
-
 import java.util.Scanner;
-
-/**
- *
- * @author bimab
- */
 public class Hello {
-
-    /**
-     * @param args the command line arguments
-     */
     public static int g(int n){
         if (n == 1) {
             return 2;
@@ -24,7 +9,37 @@ public class Hello {
         }
     }
     public static void main(String[] args) {
-        System.out.println(g(4));
+//        for (int i = 5; i < 100; i+=5) {
+//            System.out.println("i = " + i);
+//        }
+        
+//        int angka[] = {5,19,30,48,38};
+//        System.out.print("Data dari depan: ");
+//        for (int i = 0; i < angka.length; i++) {
+//            System.out.print(angka[i] + ",");
+//        }
+//        System.out.println("");
+//        System.out.print("Data dari belakang : ");
+//        for (int i = angka.length - 1; i >= 0; i--) {
+//            System.out.print(angka[i] + ",");
+//        }
+        Scanner c = new Scanner(System.in);
+        System.out.print("Masukan angka yang ingin di cari : ");
+        int b = c.nextInt();
+        int temp = -1;
+        
+        int A[] = {2,7,3,9,4,1,34,25,76,80,90,54,21,78};
+        for (int i = 0; i < A.length; i++) {
+            if (b == A[i]) {
+                temp = i;
+            }
+        }
+        if (temp == -1) {
+            System.out.println("Data " + b +" tidak ada di dalam array");
+        }else{
+            System.out.println("Data " + b + " terdapat di index ke- " + temp);
+        }
+//        System.out.println(g(4));
     }
 //        Scanner key = new Scanner(System.in);
 //
